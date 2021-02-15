@@ -12,6 +12,9 @@ body{
 .wrapper-pagina{
     margin: 0 300px;
 }
+img{
+    width: 100%;
+}
 li{
     display: inline-block;
     margin-right: 10px;
@@ -30,6 +33,14 @@ li{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
 }
+.float{
+    float: left;
+}
+
+/*Logo*/
+.logo{
+    width: 10%;
+}
 
 /*Intesatzione*/
 .slogan{
@@ -45,4 +56,24 @@ li{
     bottom: 40px;
     left: 30px;
     width: 60%;
+}
+
+/*Sezioni*/
+.contenitore-sezioni{
+    margin: 30px 0;
+}
+.contenitore-sezioni::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sezione-piccola{
+    width: 15%;
+}
+.sezione-grande{
+    width: 60%;
+}
+/*Footer*/
+footer{
+    text-align: center;
 }
