@@ -21,6 +21,9 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+a{
+    text-decoration: none;
+}
 .colore-grigio{
     color: #8a8a8a;
 }
@@ -87,6 +90,7 @@ li{
     width: 60%;
     margin: 0 1%;
 }
+
 /*Footer*/
 footer{
     text-align: center;
