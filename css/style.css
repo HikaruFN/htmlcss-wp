@@ -90,12 +90,15 @@ a{
     width: 60%;
     margin: 0 1%;
 }
+.img-sezione-altezza{
+    height: 250px;
+    object-fit: cover;
+}
 
 /*Footer*/
 footer{
     text-align: center;
 }
-.img-sezione-altezza{
-    height: 250px;
-    object-fit: cover;
+.cuore{
+    color: red;
 }
